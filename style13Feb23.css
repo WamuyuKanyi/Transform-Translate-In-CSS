@@ -8,6 +8,10 @@ animation: (change over time with points) */
 
 /* An animation lets an element gradually change from one style to another. */
 
+/* transform: translate== The translate property allows you to change the position of elements.
+
+The translate property defines x- and y-coordinates of an element in 2D. You can also define the z-coordinate to change position in 3D. */
+
 div {
   width: 150px;
   height: 150px;
