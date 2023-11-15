@@ -1,0 +1,33 @@
+/* transform: translate(), rotate(), scale(), skew()
+transition: (change over time)
+animation: (change over time with points) */
+
+/* The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements. */
+
+/* CSS transitions allows you to change property values smoothly, over a given duration. */
+
+/* An animation lets an element gradually change from one style to another. */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  /* The box will move 20px to the right */
+  /* 50% though will mean 50% of 150px, which is 75px */
+  transform: translateX(20px);
+}
+.two {
+  background: blue;
+  transform: translateY(30px);
+  /* -30px will move it up while 30px will move it down */
+}
+
+.three {
+  background: green;
+  /* both x and y axis */
+  transform: translate(200px, 30px);
+}
